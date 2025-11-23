@@ -3,7 +3,6 @@ import { type ButtonProps } from "@/interfaces";
 const ButtonProps: React.FC<ButtonProps> = ({
   label,
   onClick,
-  title,
   shapes,
   sizes,
   className = "",
