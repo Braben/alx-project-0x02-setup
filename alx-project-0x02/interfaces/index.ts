@@ -8,3 +8,11 @@ export interface PostModalProps {
   onClose: () => void;
   onSubmit: (data: CardProps) => void;
 }
+
+export interface ButtonProps {
+  label: string;
+  onClick: () => void;
+  sizes?: "small" | "medium" | "large";
+  shapes?: "rounded-sm" | "rounded-md" | "rounded-lg" | "rounded-full";
+  className: string;
+}
